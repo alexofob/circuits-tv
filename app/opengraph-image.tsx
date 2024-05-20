@@ -23,7 +23,7 @@ export default async function OG() {
         }}
       >
         <img
-          src={env.NEXT_PUBLIC_APP_URL + Logo.src}
+          src={`${env.NEXT_PUBLIC_APP_URL}/${Logo.src}`}
           alt="Circuits TV Logo"
           tw="mb-2 opacity-95"
           width={320}
