@@ -25,11 +25,17 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: siteConfig.name,
-    title: {
-      default: siteConfig.name,
-      template: `%s - ${siteConfig.name}`,
-    },
+    url: siteConfig.url,
+    title: siteConfig.name,
     description: siteConfig.description,
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      },
+    ],
   },
   twitter: {
     card: "summary",
@@ -39,6 +45,10 @@ export const metadata: Metadata = {
     },
     description: siteConfig.description,
   },
+  icons: {
+    shortcut: "/icons/favicon-16x16.png",
+  },
+  metadataBase: new URL(siteConfig.url),
 };
 
 export const viewport: Viewport = {
