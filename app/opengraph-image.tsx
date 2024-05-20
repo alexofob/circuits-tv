@@ -19,7 +19,8 @@ export default async function OG() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          backgroundImage: "linear-gradient(to bottom, #dbf4ff, #fff1f1)",
+          background:
+            "linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%)",
         }}
       >
         <img
@@ -33,7 +34,8 @@ export default async function OG() {
           style={{
             fontSize: "40px",
             fontWeight: 900,
-            background: "linear-gradient(90deg, rgb(241,90,36), rgb(0, 0, 0))",
+            background:
+              "linear-gradient(90deg, rgb(241,90,36), rgb(255, 255, 255))",
             backgroundClip: "text",
             color: "transparent",
             lineHeight: "5rem",
@@ -48,6 +50,7 @@ export default async function OG() {
             fontWeight: 700,
             lineHeight: "5rem",
             letterSpacing: "-0.02em",
+            color: "white",
           }}
         >
           Experience the Cinematic Universe on Mobile.
