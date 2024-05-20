@@ -17,13 +17,11 @@ export default function ComingSoon() {
   }, []);
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-900">
-      <Image
-        src={currentImage}
-        alt="Coming Soon"
-        className="w-full h-auto"
-        priority
-      />
-    </div>
+    <Image
+      src={currentImage}
+      alt="Coming Soon"
+      className="w-full h-auto"
+      priority
+    />
   );
 }
