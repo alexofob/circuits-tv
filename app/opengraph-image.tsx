@@ -26,7 +26,7 @@ export default async function OG() {
         <img
           src={`${env.NEXT_PUBLIC_APP_URL}/${Logo.src}`}
           alt="Circuits TV Logo"
-          tw="mb-2 opacity-95"
+          tw="mt-10 opacity-95"
           width={320}
           height={320}
         />
@@ -58,8 +58,8 @@ export default async function OG() {
       </div>
     ),
     {
-      width: 1200,
-      height: 630,
+      width: 800,
+      height: 600,
     }
   );
 }
